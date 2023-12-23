@@ -1,0 +1,39 @@
+body {
+
+    background-color: black;
+
+    color: yellow;
+
+    font-family: 'Your Calligraphy Font', BOLD; /* Replace 'Your Calligraphy Font' with the actual font name */
+
+    text-align: center;
+
+    margin-top: 100px;
+
+}
+
+.typewriter h1 {
+
+    overflow: hidden; /* Ensures the text is initially hidden */
+
+    white-space: nowrap; /* Prevents text from wrapping */
+
+    animation: typing 3s steps(10) forwards; /* Adjust the duration and steps as needed */
+
+}
+
+@keyframes typing {
+
+    from {
+
+        width: 0;
+
+    }
+
+    to {
+
+        width: 100%;
+
+    }
+
+}
